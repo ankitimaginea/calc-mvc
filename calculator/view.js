@@ -40,6 +40,7 @@ var CalculatorView = Object.extend(Object, {
         btn.update({
             'style':{
                 'float': 'none',
+                'margin-left': '27px',
             }
         });
         screen_pad.appendChild(btn.get_view());
